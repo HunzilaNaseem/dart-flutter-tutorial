@@ -4,7 +4,7 @@
 // For example, given the list [1, 2, 3, 4, 5] and a target value of 7,
 // the function should return [2, 5], since 2 + 5 = 7 and
 // 2 and 5 have lower indices than any other pair that adds up to 7 in the list.
-
+https://github.com/Muzammil-Bilwani/dart-flutter-tutorial/find/main
 void main() {
   List<int> numbers = [1, 2, 3, 4, 5];
   int target = 7;
@@ -15,6 +15,13 @@ void main() {
 
 List<int> findPair(List<int> numbers, int target) {
   // Your code here
-
-  return [2, 5];
-}
+int firstname = 0;
+int secondname = 0;
+  for(int i = 0; i< numbers.length; i++);{
+  for(int j = 0; j<numbers.length; i++);{
+    if(numbers[i]+ numbers[j] == target);{
+      
+      
+    }
+  }
+    }
